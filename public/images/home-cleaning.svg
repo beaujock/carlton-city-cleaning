@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="t">
+  <title id="t">A sparkling clean house</title>
+  <rect width="640" height="420" fill="#d9ecff"/>
+  <circle cx="540" cy="80" r="44" fill="#ffc233"/>
+  <!-- ground -->
+  <rect y="340" width="640" height="80" fill="#f3f6fa"/>
+  <ellipse cx="320" cy="342" rx="250" ry="10" fill="#0e2a47" opacity=".08"/>
+  <!-- house -->
+  <rect x="170" y="190" width="300" height="152" rx="6" fill="#ffffff"/>
+  <path d="M146 200 L320 80 L494 200 Z" fill="#0e2a47"/>
+  <rect x="400" y="100" width="34" height="62" fill="#0e2a47"/>
+  <!-- door -->
+  <rect x="290" y="250" width="60" height="92" rx="30" ry="30" fill="#1e6fd9"/>
+  <rect x="290" y="280" width="60" height="62" fill="#1e6fd9"/>
+  <circle cx="337" cy="300" r="4" fill="#ffc233"/>
+  <!-- windows -->
+  <g fill="#d9ecff" stroke="#0e2a47" stroke-width="6">
+    <rect x="198" y="226" width="64" height="56" rx="4"/>
+    <rect x="378" y="226" width="64" height="56" rx="4"/>
+  </g>
+  <g stroke="#0e2a47" stroke-width="4">
+    <line x1="230" y1="226" x2="230" y2="282"/><line x1="198" y1="254" x2="262" y2="254"/>
+    <line x1="410" y1="226" x2="410" y2="282"/><line x1="378" y1="254" x2="442" y2="254"/>
+  </g>
+  <!-- window shine -->
+  <g stroke="#ffffff" stroke-width="5" stroke-linecap="round">
+    <line x1="206" y1="246" x2="218" y2="234"/><line x1="386" y1="246" x2="398" y2="234"/>
+  </g>
+  <!-- bushes -->
+  <g fill="#1e6fd9" opacity=".25">
+    <circle cx="180" cy="330" r="26"/><circle cx="210" cy="336" r="20"/>
+    <circle cx="460" cy="330" r="26"/><circle cx="432" cy="336" r="20"/>
+  </g>
+  <!-- bubbles -->
+  <g fill="#ffffff" stroke="#1e6fd9" stroke-width="3" opacity=".9">
+    <circle cx="96" cy="150" r="22"/><circle cx="126" cy="112" r="12"/><circle cx="70" cy="104" r="8"/>
+    <circle cx="560" cy="240" r="18"/><circle cx="590" cy="206" r="10"/>
+  </g>
+  <!-- sparkles -->
+  <g fill="#ffc233">
+    <path d="M320 30 l7 18 18 7 -18 7 -7 18 -7 -18 -18 -7 18 -7z"/>
+    <path d="M110 260 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5z"/>
+    <path d="M520 150 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z"/>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="t">
+  <title id="t">A spotless office building with a mop and bucket</title>
+  <rect width="640" height="420" fill="#0e2a47"/>
+  <!-- distant skyline -->
+  <g fill="#1e6fd9" opacity=".35">
+    <rect x="40" y="170" width="70" height="180"/><rect x="120" y="130" width="50" height="220"/>
+    <rect x="500" y="150" width="60" height="200"/><rect x="570" y="190" width="50" height="160"/>
+  </g>
+  <!-- ground -->
+  <rect y="340" width="640" height="80" fill="#14202e"/>
+  <!-- main building -->
+  <rect x="210" y="70" width="220" height="272" rx="4" fill="#f3f6fa"/>
+  <rect x="200" y="60" width="240" height="18" rx="3" fill="#ffffff"/>
+  <g fill="#d9ecff">
+    <rect x="232" y="96"  width="40" height="34" rx="2"/><rect x="300" y="96"  width="40" height="34" rx="2"/><rect x="368" y="96"  width="40" height="34" rx="2"/>
+    <rect x="232" y="146" width="40" height="34" rx="2"/><rect x="300" y="146" width="40" height="34" rx="2"/><rect x="368" y="146" width="40" height="34" rx="2"/>
+    <rect x="232" y="196" width="40" height="34" rx="2"/><rect x="300" y="196" width="40" height="34" rx="2"/><rect x="368" y="196" width="40" height="34" rx="2"/>
+  </g>
+  <!-- lit windows -->
+  <g fill="#ffc233">
+    <rect x="300" y="96" width="40" height="34" rx="2"/><rect x="232" y="196" width="40" height="34" rx="2"/>
+  </g>
+  <!-- window shine -->
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round">
+    <line x1="238" y1="122" x2="250" y2="106"/><line x1="374" y1="172" x2="386" y2="156"/><line x1="306" y1="222" x2="318" y2="206"/>
+  </g>
+  <!-- entrance -->
+  <rect x="280" y="262" width="80" height="80" fill="#1e6fd9"/>
+  <line x1="320" y1="262" x2="320" y2="342" stroke="#0e2a47" stroke-width="4"/>
+  <rect x="262" y="250" width="116" height="14" rx="3" fill="#0e2a47"/>
+  <!-- bucket -->
+  <path d="M470 300 h64 l-8 44 h-48 z" fill="#ffc233"/>
+  <rect x="466" y="292" width="72" height="12" rx="4" fill="#ffc233"/>
+  <path d="M478 296 q24 -30 48 0" fill="none" stroke="#f3f6fa" stroke-width="4"/>
+  <!-- mop -->
+  <line x1="560" y1="170" x2="512" y2="320" stroke="#f3f6fa" stroke-width="7" stroke-linecap="round"/>
+  <path d="M488 318 q24 -10 48 6 l-4 20 q-22 -8 -46 0 z" fill="#d9ecff"/>
+  <!-- bubbles from bucket -->
+  <g fill="none" stroke="#d9ecff" stroke-width="3">
+    <circle cx="498" cy="270" r="10"/><circle cx="520" cy="248" r="7"/><circle cx="484" cy="240" r="5"/>
+  </g>
+  <!-- sparkles -->
+  <g fill="#ffc233">
+    <path d="M160 70 l6 15 15 6 -15 6 -6 15 -6 -15 -15 -6 15 -6z"/>
+    <path d="M470 90 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z"/>
+    <path d="M100 290 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/>
+  </g>
+</svg>

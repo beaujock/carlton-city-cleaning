@@ -15,7 +15,7 @@ Open http://localhost:3000.
 
 ## Brand
 
-Brand tokens live in `src/app/globals.css` (`@theme`) and are available as Tailwind utilities, e.g. `bg-navy`, `text-blue`, `bg-sunbeam`.
+Brand tokens live in `app/globals.css` (`@theme`) and are available as Tailwind utilities, e.g. `bg-navy`, `text-blue`, `bg-sunbeam`.
 
 | Token     | Name        | Hex       | Use                  |
 |-----------|-------------|-----------|----------------------|
@@ -29,4 +29,13 @@ Brand tokens live in `src/app/globals.css` (`@theme`) and are available as Tailw
 
 Typeface: Montserrat (via `next/font/google`).
 
-Logos (Ripple C) are in `public/brand/`: `logo-primary`, `logo-primary-reverse` (for dark backgrounds), `logo-legal-inc`, `logo-legal-inc-reverse`, `logo-stacked`, `mark`, `app-icon`, `app-icon-light`. The favicon is `src/app/icon.svg`.
+Logos (Ripple C) are in `public/brand/`: `logo-primary`, `logo-primary-reverse` (for dark backgrounds), `logo-legal-inc`, `logo-legal-inc-reverse`, `logo-stacked`, `mark`, `app-icon`, `app-icon-light`. The favicon is `app/icon.svg`.
+
+## Environment variables
+
+Copy `.env.example` to `.env.local` and set:
+
+- `NEXT_PUBLIC_BUSINESS_EMAIL` — business contact email
+- `NEXT_PUBLIC_BUSINESS_PHONE` — business phone number
+
+Read them via `@/lib/contact`. They are inlined at build time, so rebuild after changing them (and set them in your hosting provider's env settings).

@@ -16,7 +16,7 @@ export function SiteHeader() {
           />
         </Link>
         <Link
-          href="#contact"
+          href="/quote"
           className="rounded-full bg-blue px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-navy"
         >
           Get a quote
